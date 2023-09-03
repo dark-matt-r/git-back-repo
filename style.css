@@ -7,3 +7,8 @@
 body {
     background-image: linear-gradient(red, green, blue);
 }
+
+.logo {
+    width: 80px;
+    height: auto;
+}
