@@ -4,13 +4,40 @@
     box-sizing: border-box;
 }
 
-body {
+:root {
+    --font-color: blue
+}
+
+header {
     background-image: linear-gradient(red, green, blue);
 }
 
-
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .logo {
     width: 80px;
     height: auto;
+}
+
+.pages {
+    list-style-type: none;
+}
+
+.pages li {
+    display: inline-block;
+}
+
+.pages li a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.signup {
+    padding: 1rem;
+    margin-right: 1rem;
 }
