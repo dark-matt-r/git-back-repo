@@ -43,11 +43,11 @@ nav {
 }
 
 .signup:hover {
-    transform: translate(-222px, 222px);
+    transform: rotate(0.25turn);
 }
 
 .fox:hover {
-    transform: translate(-222px, 222px);
+    translate: 40px 40px
 
 }
 
