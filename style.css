@@ -5,11 +5,14 @@
 }
 
 :root {
-    --font-color: blue
+    --font-color: lime;
 }
 
 header {
-    background-image: linear-gradient(red, green, blue);
+    background-image: linear-gradient(midnightblue, blue);
+    position: sticky;
+    top: 0;
+    box-shadow: 0 20px 20px -10px;
 }
 
 nav {
@@ -40,6 +43,7 @@ nav {
 .signup {
     padding: 1rem;
     margin-right: 1rem;
+    background-color: lime;
 }
 
 .signup:hover {
@@ -47,8 +51,7 @@ nav {
 }
 
 .fox:hover {
-    translate: 40px 40px
-
+    translate: 40px 40px;
 }
 
 
