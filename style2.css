@@ -1,7 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/* Variables */
+:root {
+    --MAIN-COLOR-1: rgb(0, 0 ,100);
+    --MAIN-COLOR-2: rgb(0, 115, 200);
+    --SECONDARY-COLOR: lime;
+}
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+footer {
+    background-color: var(--MAIN-COLOR-1);
+    color: var(--MAIN-COLOR-2);
+
+    display: block;
+    padding: 1rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    position: fixed;
+    bottom: 0;
+}
+
+.site-nav {
+    color: var(--MAIN-COLOR-2);
+    background-color: var(--MAIN-COLOR-1);
+    box-shadow: 0 20px 20px -10px var(--MAIN-COLOR-1);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    color: var(--SECONDARY-COLOR);
+
+    padding: 0.5rem;
+}
+
+.sites li {
+    display: inline-block;
+}
+
+.cta {
+    background-color: var(--SECONDARY-COLOR);
+    border-radius: 0.5rem;
+
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+
+.card {
+    border: var(--MAIN-COLOR-1) solid 2px;
+    border-radius: 0.6rem;
+    box-shadow: 0.5rem 0.5rem var(--MAIN-COLOR-1);
+
+    padding: 1rem;
+    margin: 1rem;
+}
