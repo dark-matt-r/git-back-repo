@@ -47,7 +47,11 @@ nav {
 }
 
 .signup:hover {
+    background-color: blue;
     transform: rotate(0.25turn);
+    transition-property: all;
+    transition-duration: 2.5s;
+    transition-delay: 0.25s;
 }
 
 .fox:hover {
