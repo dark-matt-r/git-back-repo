@@ -7,3 +7,21 @@
 body {
     background-color: #0095ff40;
 }
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+.move:hover {
+    background-color: blue;
+    transform: translate(100px) rotate(45deg);
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-delay: 0.5s;
+}
