@@ -25,3 +25,23 @@ body {
     transition-duration: 2s;
     transition-delay: 0.5s;
 }
+
+.animate {
+    animation-name: roll;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes roll {
+    0% {
+        transform: translate(0px);
+    }
+    50% {
+        transform: translate(300px) rotate(360deg);
+    }
+    100% {
+        transform: translate(0px);
+    }
+}
+
