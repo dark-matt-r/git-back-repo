@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: brown;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 16px;
+    width: 16px;
+}
+
+h1 {
+    font: 16px;
+    display: inline;
+}
+
+main {
+    background-color: ghostwhite;
+
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 3;
+}
+
+.items {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+
+
