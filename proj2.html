@@ -12,42 +12,50 @@
         <h1>Coffee Masters</h1>
     </header>
     <main>
-        <section class="items">
-            <h3>ITEMS</h3>
-            <div class="item-info">
-                <div class="num-of-item"></div>
-                <div class="item"></div>
-                <div class="item-total"></div>
+        <div class="order-info">
+            <div class="left">
+                <section class="items">
+                    <h3>ITEMS</h3>
+                    <div class="item-info">
+                            <div class="num-of-item"></div>
+                            <div class="item"></div>
+                            <div class="item-total"></div>
+                    </div>
+                </section>
+                <section class="pay-info">
+                    <p>Subtotal</p>
+                    <p>Tax</p>
+                    <p>Total</p>
+                </section>
             </div>
-        </section>
-        <section class="name">
-            <h3>NAME</h3>
-            <label for="order">
-                Name for order
-            </label>
-            <input type="text">
-        </section>
-        <section class="payment">
-            <h3>PAYMENT</h3>
-            <label for="card-number">
-                Card number
-            </label>
-            <input type="text">
-            <label for="ccv-number">
-                CCV number
-            </label>
-            <input type="text">
-        </section>
-        <section class="pay-info">
-            <p>Subtotal</p>
-            <p>Tax</p>
-            <p>Total</p>
-        </section>
-        <section class="pay-totals">
-            <p>Subtotal</p>
-            <p>Tax</p>
-            <p>Total</p>
-        </section>
+
+            <div class="right">
+                <section class="name">
+                    <h3>NAME</h3>
+                    <label for="order">
+                        Name for order
+                    </label>
+                    <input type="text">
+                </section>
+                <section class="payment">
+                    <h3>PAYMENT</h3>
+                    <label for="card-number">
+                        Card number
+                    </label>
+                    <input type="text">
+                    <label for="ccv-number">
+                        CCV number
+                    </label>
+                    <input type="text">
+                </section>
+                <section class="pay-totals"> 
+                    <p>Subtotal</p>
+                    <p>Tax</p>
+                    <p>Total</p>
+                </section>
+            </div>
+        </div>
+
         <section class="pay-button">
             <button>Place Order</button>
         </section>

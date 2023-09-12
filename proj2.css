@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color: brown;
+    background-color: chocolate;
     color: white;
 
     display: flex;
@@ -20,24 +20,60 @@ img {
 }
 
 h1 {
-    font: 16px;
+    font-size: 16px;
     display: inline;
 }
 
 main {
     background-color: ghostwhite;
-
-    display: grid;
-    grid-template-columns: 2;
-    grid-template-rows: 3;
 }
 
-.items {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 2;
+.order-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
 }
+
+.left {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.items, .name, .payment {
+    background-color: burlywood;
+    margin: 2rem;
+    border: 2px brown solid;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.payment {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    top: -7px;
+}
+
+.pay-button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    width: 75%;
+    background-color: brown;
+    border-radius: 5px;
+}
+
 
 
 
