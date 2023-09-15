@@ -38,20 +38,30 @@ main {
 .left {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    justify-content: space-between;
+    align-items:flex-end;
+    padding: ;
+    margin: ;
 }
 
 .items, .name, .payment {
     background-color: burlywood;
     margin: 2rem;
-    border: 2px brown solid;
+    padding: 2rem;
+    border: none;
+    border-radius: 100px;
+    box-shadow: -10px 10px 5px gray;
+    margin-left: 0px;
+    margin-right: auto;
 }
 
 .right {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
-    margin: 2rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: ;
+    margin: ;
 }
 
 .payment {
