@@ -30,16 +30,13 @@ main {
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: auto;
 }
 
 h3 {
     padding-right: 10px;
     margin-bottom: 10px;
-}
-
-td {
-    padding: 5px;
+    font-size: 0.75rem;
 }
 
 .items, .name, .payment {
@@ -55,8 +52,16 @@ td {
 .name input, .payment input {
     padding: 5px;
     background-color: transparent;
-    border-radius: 10px;
+    border-radius: 100px;
     display: block;
+}
+
+.name label, .payment label {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    background-color: #ece1d5;
+    padding: 4px;
 }
 
 .items {
@@ -64,6 +69,31 @@ td {
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 2;
+}
+
+.items-table {
+    border-collapse: collapse;
+}
+
+.items .items-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.items-table tr:nth-child(even) {
+    border-bottom: #43281c solid 1px;
+}
+
+.items-table tr:last-child() {
+    border-bottom: none;
+}
+
+.item td {
+    width: 10%;
+}
+
+.item .item-name {
+    width: 80%;
 }
 
 .name {
@@ -89,6 +119,8 @@ td {
     grid-column-end: 3;
 
     margin-top: 15px;
+    padding-top: 50px;
+    padding-bottom: 25px;
 }
 
 .totals .data {
@@ -97,8 +129,6 @@ td {
 }
 
 .button {
-    margin: 20px;
-
     grid-row-start: 4;
     grid-row-end: 5;
     grid-column-start: 1;
@@ -106,11 +136,14 @@ td {
 
     display: flex;
     justify-content: center;
+
+    height: 3rem;
 }
 
 .button button {
     background-color: #dab991;
     width: 80%;
+    height: 2rem;
 
-    border-radius: 10px;
+    border-radius: 100px;
 }
