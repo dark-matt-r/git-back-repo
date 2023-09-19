@@ -41,7 +41,7 @@ h3 {
 
 .items, .name, .payment {
     background-color: #ece1d5;
-    color: #43281c;
+    color: #dab991;
 
     margin: 10px;
     padding: 10px;
@@ -51,9 +51,14 @@ h3 {
 
 .name input, .payment input {
     padding: 5px;
+    margin: 5px;
+    width: 80%;
     background-color: transparent;
     border-radius: 100px;
     display: block;
+    border-color: #dab991;
+
+
 }
 
 .name label, .payment label {
@@ -82,6 +87,7 @@ h3 {
 
 .items-table tr:nth-child(even) {
     border-bottom: #43281c solid 1px;
+    margin: 10px;
 }
 
 .items-table tr:last-child() {
