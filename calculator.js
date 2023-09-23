@@ -5,6 +5,12 @@ let operator = null;
 
 const display = document.querySelector(".display");
 
+function backspace(){
+    operand1 = operand1.substring(0, (operand1.length - 1));
+    setDisplay(operand1);
+    console.log(operand1);    
+}
+
 /* Calculates and displays the final answer. */
 function calculate() {
     let result = null;
