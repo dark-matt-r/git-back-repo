@@ -13,7 +13,7 @@
                 <p>0</p>
             </section>
             <section class="clear">
-                <button>Clear</button>
+                <button onclick="clearDisplay()">Clear</button>
             </section>
             <section class="backspace">
                 <button>Back</button>
@@ -21,44 +21,44 @@
             <section class="seven" onclick="setOperands('7')">
                 <button>7</button>
             </section>
-            <section class="eight">
+            <section class="eight" onclick="setOperands('8')">
                 <button>8</button>
             </section>            
-            <section class="nine">
+            <section class="nine" onclick="setOperands('9')">
                 <button>9</button>
             </section>
-            <section class="four">                
+            <section class="four" onclick="setOperands('4')">                
                 <button>4</button>
             </section>
-            <section class="five">
+            <section class="five" onclick="setOperands('5')">
                 <button>5</button>
             </section>
-            <section class="six">
+            <section class="six" onclick="setOperands('6')">
                 <button>6</button>
             </section>
-            <section class="one">
+            <section class="one" onclick="setOperands('1')">
                 <button>1</button>
             </section>
-            <section class="two">
+            <section class="two" onclick="setOperands('2')">
                 <button>2</button>
             </section>
-            <section class="three">
+            <section class="three" onclick="setOperands('3')">
                 <button>3</button>
             </section>
-            <section class="zero">
+            <section class="zero" onclick="setOperands('0')">
                 <button>0</button>
             </section>
             <section class="division">
-                <button>/</button>
+                <button onclick="setOperator('/')">/</button>
             </section>
             <section class="multiplication">
-                <button>x</button>
+                <button onclick="setOperator('x')">x</button>
             </section>
             <section class="subtraction">
-                <button>-</button>
+                <button onclick="setOperator('-')">-</button>
             </section>
             <section class="addition">
-                <button>+</button>
+                <button onclick="setOperator('+')">+</button>
             </section>
             <section class="equals">
                 <button onclick="calculate()">=</button>
