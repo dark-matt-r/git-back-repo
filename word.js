@@ -7,4 +7,3 @@ async function retrieveWord() {
     return processedResponse;
 }
 
-console.log(retrieveWord());
