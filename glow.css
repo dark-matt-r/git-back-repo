@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+button {
+    margin: 5rem;
+    padding: 5rem 5rem 5rem 5rem;
+    font: 2rem sans-serif;
+    background-color: cyan;
+    box-shadow: 0 0 5px cyan, 
+    0 0 25px cyan;
+}
+
+button:hover {
+    background-color: cyan;
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan,
+    0 0 50px cyan,
+    0 0 100px cyan,
+    0 0 200px cyan;
+}
